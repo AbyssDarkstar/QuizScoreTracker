@@ -12,7 +12,7 @@ namespace QuizScoreTracker.Managers
 {
     public class UpdateManager
     {
-        private static string UpdateCheckUri { get; } = "https://github.com/AbyssDarkstar/QuizScoreTracker/blob/versioning/QuizScoreTracker.json";
+        private static string UpdateCheckUri { get; } = "https://github.com/AbyssDarkstar/QuizScoreTracker/raw/versioning/QuizScoreTracker.json";
 
         private static string UpdateNotesPath { get; set; }
         public static string UpdateExePath { get; private set; }
